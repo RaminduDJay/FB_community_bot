@@ -29,3 +29,4 @@ def synthesize_content(articles):
     
     response = generator(prompt, max_new_tokens=500)
     return eval(response[0]["generated_text"])
+  
