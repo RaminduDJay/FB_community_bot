@@ -18,3 +18,4 @@ def get_comments(post_id):
 def reply_to_comment(comment_id, reply_text):
     graph = facebook.GraphAPI(access_token="YOUR_FACEBOOK_TOKEN")
     graph.put_object(parent_object=comment_id, connection_name="comments", message=reply_text)
+    
