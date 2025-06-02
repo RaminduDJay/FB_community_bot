@@ -7,3 +7,4 @@ def fetch_techcrunch_articles(n=5):
         "summary": entry.summary,
         "link": entry.link
     } for entry in feed.entries[:n]]
+    
