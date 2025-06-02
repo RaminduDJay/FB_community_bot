@@ -1,0 +1,3 @@
+post_schedule: "daily_at_8am"
+comment_monitoring_interval: "30_minutes"
+image_size: "1024x1024"

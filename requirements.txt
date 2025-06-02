@@ -1,0 +1,9 @@
+feedparser
+python-dotenv
+requests
+pillow
+torch
+transformers
+diffusers
+facebook-sdk
+huggingface_hub
